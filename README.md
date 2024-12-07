@@ -20,29 +20,30 @@ This project trains a Convolutional Neural Network (CNN) to classify images from
 
 ## **Overview**
 
-### **1. Data Preparation**
----
+### <strong>1. Data Preparation</strong>
 
-#### **1.1 Data Loading**
-#### **1.2 Data Preprocessing**
-#### **1.3 Data Analysis and Visualization**
-<ul>
-<li> 1.3.1 Sample Images Visualization: Plotted random MNIST digit samples.</li>
-<li> 1.3.2 Correlation Matrix Computed and visualized the pixel value correlation matrix.</li>
-<li> 1.3.3 Digit Distribution: Displayed the distribution of digits in the dataset.</li>
-<li> 1.3.4 Principal Component Analysis (PCA): Reduced image dimensions and visualized in 2D.</li>
-</ul>
+<p style="margin-left: 20px;">
+  1.1 Data Loading<br>
+  1.2 Data Preprocessing<br>
+  1.3 Data Analysis and Visualization<br>
+  <ul style="margin-left: 20px;">
+    <li>1.3.1 Sample Images Visualization: Plotted random MNIST digit samples.</li>
+    <li>1.3.2 Correlation Matrix: Computed and visualized the pixel value correlation matrix.</li>
+    <li>1.3.3 Digit Distribution: Displayed the distribution of digits in the dataset.</li>
+    <li>1.3.4 Principal Component Analysis (PCA): Reduced image dimensions and visualized in 2D.</li>
+  </ul>
+</p>
+<p style="margin-left: 20px;">
+  1.4 Data Augmentation
+</p>
 
-#### **1.4 Data Augmentation**
+### <strong>2. Model Building</strong>
 
-### **2. Model Building**
----
-
-#### **2.1 Model Creation**
-
-#### **2.2 Model Training**
-
-#### **2.3 Model Evaluation**
+<p style="margin-left: 20px;">
+  2.1 Model Creation<br>
+  2.2 Model Training<br>
+  2.3 Model Evaluation
+</p>
 
 
 ## **Setup Instructions**
@@ -81,4 +82,4 @@ If you have previously trained and saved the model:
 ### **Test Accuracy**: 
 
 The accuracy achieved on the test set is **99.14%** </br></br>
-![Training and Validation Losses](images/model_performance.png)
+<img src="images/model_performance.png" alt="Training and Validation Losses" width="75%" height="75%">
