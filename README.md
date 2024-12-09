@@ -26,7 +26,7 @@ This project trains a Convolutional Neural Network (CNN) to classify images from
   1.1 Data Loading<br>
   1.2 Data Preprocessing<br>
   1.3 Data Analysis and Visualization<br>
-  <ul style="margin-left: 20px;">
+  <ul style="margin-left: 40px;">
     <li>1.3.1 Sample Images Visualization: Plotted random MNIST digit samples.</li>
     <li>1.3.2 Correlation Matrix: Computed and visualized the pixel value correlation matrix.</li>
     <li>1.3.3 Digit Distribution: Displayed the distribution of digits in the dataset.</li>
@@ -45,7 +45,9 @@ This project trains a Convolutional Neural Network (CNN) to classify images from
   2.3 Model Evaluation
 </p>
 
+> **main.ipynb** - Jupyter notebook contains the code for the project.
 
+> **test.ipynb** - Jupyter notebook contains attempt where dataset was converted to numpy arrays, then split and converted to tensors.
 ## **Setup Instructions**
 
 ### 1. Import Required Libraries
